@@ -50,6 +50,7 @@ catch (exception (type) e (object))
 
 ** Categories of Exception**
 
+
 * Checked Execption
 
 Any exception which is directly inheriting from exception class is called checked exception. 
@@ -71,7 +72,17 @@ It is not necessary to handle unchecked exception.
 
 These are exception which is inheriting from RuntimeException that is sub class of Exception.
 
-It is not necessary to handle uncheckedexception if u dont handle them it will be handed by jvm
+It is not necessary to handle uncheckedexception if u dont handle them it will be handed by jvm.
+
+* ArrayIndexOutOfBoundsException
+
+* NullPointerException
+
+* NumberFormatException
+
+* FileNotFoundException, 
+
+* SecurityException
 
 
 
