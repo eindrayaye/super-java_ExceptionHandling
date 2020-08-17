@@ -85,4 +85,6 @@ It is not necessary to handle uncheckedexception if u dont handle them it will b
 * SecurityException
 
 
+---- Importance ----
 
+(Execption e) IS A PARENTS , Can't write BEFORE any others child Exceptions (as above) 
