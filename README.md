@@ -84,6 +84,8 @@ It is not necessary to handle uncheckedexception if u dont handle them it will b
 
 * SecurityException
 
+* ArrayStoreException
+
 
 ---- Importance ----
 
