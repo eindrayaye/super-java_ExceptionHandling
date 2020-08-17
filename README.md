@@ -37,3 +37,20 @@ catch (exception (type) e (object))
 // error handling codes
 
 }
+
+
+** Errors in Java**
+
+(1) Compile time error
+
+(2) Runtime error
+
+(3) Execption 
+
+
+** Categories of Exception**
+
+* Checked Execption
+
+* Unchecked Exception
+
