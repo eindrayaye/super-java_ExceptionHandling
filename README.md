@@ -51,10 +51,28 @@ catch (exception (type) e (object))
 ** Categories of Exception**
 
 * Checked Execption
-any exception which is directly inheriting from exception class is called checked
-exception. this type of exception comes whenever u r trying to access any resource
-outside jvm like databaseconnection, files. it is must to handle checked exception,
-if u dont handle them it gives u compile time error.
 
-* Unchecked Exception
+Any exception which is directly inheriting from exception class is called checked
+exception. 
+
+This type of exception comes whenever u r trying to access any resource
+outside jvm like databaseconnection, files. 
+
+It is must to handle checked exception,if u dont handle them it gives u compile time error.
+
+IOException
+FileNotFoundException
+SQLException
+
+* UncheckedException/RuntimeException
+
+It is not necessary to handle unchecked exception.
+
+These are exception which is inheriting from RuntimeException that is sub class of
+Exception.
+
+It is not necessary to handle uncheckedexception if u dont handle them it will be hand
+ed by jvm
+
+
 
