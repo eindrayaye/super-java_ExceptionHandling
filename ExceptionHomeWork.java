@@ -1,3 +1,10 @@
+/*
+* Homework!
+*Create a program which should create and handle Numberformatexception
+*and Arraystoreexception.
+*/
+
+
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Locale; // To get the local currency
