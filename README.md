@@ -80,6 +80,9 @@ It is not necessary to handle uncheckedexception if u dont handle them it will b
 
 * NumberFormatException
 
+Explained : The NumberFormatException is thrown when we try to convert a string into a numeric value such as float or integer, but the format of the input string is not appropriate or illegal. By illegal format, it is meant that if you are trying to parse a string to an integer but the String contains a boolean value, it is of illegal format. For example - if we try to parse a string to integer but the string is null.
+
+
 * FileNotFoundException, 
 
 * SecurityException
